@@ -114,6 +114,21 @@ gap:20px;
 align-items:center;
 margin-bottom:28px;
 flex-wrap:wrap;
+
+position:sticky;
+top:0;
+z-index:50;
+
+backdrop-filter:blur(14px);
+
+background:
+linear-gradient(
+180deg,
+rgba(7,9,13,.92),
+rgba(7,9,13,.72)
+);
+
+padding-bottom:18px;
 }
 
 .topbar h1{
