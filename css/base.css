@@ -42,3 +42,37 @@ input,
 select{
 outline:none;
 }
+
+input:-webkit-autofill,
+input:-webkit-autofill:hover,
+input:-webkit-autofill:focus,
+select:-webkit-autofill{
+
+-webkit-text-fill-color:white;
+
+-webkit-box-shadow:
+0 0 0px 1000px #151b24 inset;
+
+transition:
+background-color 9999s ease-in-out 0s;
+
+caret-color:white;
+
+}
+
+::-webkit-scrollbar{
+width:10px;
+}
+
+::-webkit-scrollbar-track{
+background:#0b0f15;
+}
+
+::-webkit-scrollbar-thumb{
+background:#1f2937;
+border-radius:20px;
+}
+
+::-webkit-scrollbar-thumb:hover{
+background:#374151;
+}
